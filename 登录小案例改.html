@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="fz素材包（已解压\CampIcon\CampIcon\logo_babel.png" type="image/x-icon">
+    <title>上网登录页</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: url("登录背景.webp"),no-repeat;
+            background-size: cover;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            width: 400px;
+            border-top:1px solid rgba(255,255,255,0.5) ;
+            border-left:1px solid rgba(255,255,255,0.5) ;
+            border-right:1px solid rgba(255,255,255,0.2) ;
+            border-bottom:1px solid rgba(255,255,255,0.2) ;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        .box >h2{
+            text-align: center;
+            color:azure;
+            margin-bottom: 20px;
+        }
+        .box >.inputbox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            margin-bottom: 10px;
+        }
+        .box>.inputbox>label{
+            font-size: 13px;
+            margin-bottom: 5px;
+            color:rgba(255,255,255,0.9);
+        }
+        .box>.inputbox>input{
+            font-size: 15px;
+            border-radius: 5px;
+            background-color: rgba(255,255,255,0.9);
+            height:35px;
+            width: 260px;
+            border:1px solid rgba(255,255,255,0.2);
+            transition: 0.2s;
+        }
+        .box>.btn>a{
+            font-size:13px;
+            color:rgba(255,255,255,0.9);
+            text-decoration: none;
+            transition: 0.2s;
+            text-align:right;
+            margin-bottom: 10px;
+             
+        }
+        .box>.btn.a:hover{
+            color:rgba(255,255,255,1.5);
+        }
+        .box .btn>div>button{
+            width: 115px;
+            height: 35px;
+            border: 1px solid rgba(66,178,96,0.8);
+            color: rgba(255,255,255,0.9);
+            background-color: rgba(66,178,96,0.5);
+            border-radius: 5px;
+        }
+        .box .btn>div>button:hover{
+            width: 115px;
+            height: 35px;
+            border: 1px solid rgba(75, 205, 110, 0.8);
+            color: rgba(255,255,255,0.9);
+            background-color: rgba(75,205,110,0.5);
+            border-radius: 5px;
+        }
+        .box .btn>div>button:active{
+            width: 115px;
+            height: 35px;
+            border: 1px solid rgba(13, 112, 39, 0.8);
+            color: rgba(255,255,255,0.9);
+            background-color: rgba(13,112,39,0.5);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>登录</h2>
+        <div class="inputbox">
+            <label>账号</label>
+            <input type="text">
+        </div>
+        <div class="inputbox">
+            <label>密码</label>
+            <input type="password">
+        </div>
+        <div class="btn">
+            <a href="#">忘记密码</a>
+            <div id="label" style="height: 10px;"></div>
+            <div>
+                <button id="btn1">登录</button>
+                <button id="btn2">注册</button>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var btn1=document.getElementById("btn1");
+        var btn2=document.getElementById("btn2");
+        var label=document.getElementById("label");
+        btn1.addEventListener("click",function(){
+            alert("本页面没接后端功能，看看就好了")
+        })
+        btn2.addEventListener("click",function(){
+            alert("本页面没接后端功能，看看就好了")
+        })
+    </script>
+</body>
+</html>

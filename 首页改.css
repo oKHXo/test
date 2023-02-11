@@ -1,0 +1,327 @@
+*{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    background: url("顶部背景.png");
+    background-size: cover;
+    width: 1520px;
+    
+    height:220px;
+    margin-top: -10px;
+}
+.headline{
+    width: 1500px;
+    height:30px;
+    background: url("顶栏-2.png");
+    line-height: 30px;
+   
+}
+.headline a{
+ color: aliceblue;
+ text-align: end;
+ text-decoration: none;
+margin-left: 1300px;
+}
+.backtohome{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-left: 5px;
+    margin-top: 5px;
+    top:86px;
+    left:20px;
+    border-top:1px solid rgba(255,255,255,0.5) ;
+    border-left:1px solid rgba(255,255,255,0.5) ;
+    border-right:1px solid rgba(255,255,255,0.2) ;
+    border-bottom:1px solid rgba(255,255,255,0.2) ;
+    border-radius: 0 20px 0 20px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(220, 32, 19, 0.3);
+    box-shadow: 4px 4px 8px;
+}
+.backtohome a{
+    display: block;
+    width: 179px;
+    height: 179px;
+    
+    background: url("logo_yan.png");
+    background-size: cover;
+}
+.body{
+    float: left;
+}
+.mainbody{
+    margin-left: 20px;
+    float: left;
+    width: 1240px;
+    background: url("Bg-mc-icon-demo.png");
+    background-repeat: repeat;
+    background-color: rgba(225, 227, 84, 0.158);
+
+}
+.mainbody ul{
+    width: 100%;
+    float: left;
+    background-color:white;
+}
+.mainbody .topnav .now{
+    background-color: aliceblue;
+    color:black;
+}
+.mainbody .topnav .now:hover{
+    background-color: aliceblue;
+}
+.mainbody .topnav li{
+    display: block;
+    float: left;
+    list-style: none;
+    height: 40px;
+    width:40px;
+    line-height: 40px;
+    background-color: rgb(255, 131, 6);
+    margin-left: 5px;
+}
+.mainbody .topnav li a{
+    margin:auto;
+    margin-top: 2px;
+    display: block;
+    color: aliceblue;
+    height: 38px;
+    width:38px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.934) ;
+}
+.mainbody .topnav li a:hover{
+    background-color: rgba(0, 0, 0, 0.381) ;
+    transition: 0.2s;
+}
+.arrow-l,
+.arrow-r{
+    display: none; 
+    position:absolute;
+    top:50%;
+    margin-top: -20px;
+    width:24px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    line-height: 40px;
+    color: aliceblue;
+    font-size: 18px;
+    z-index: 1;
+}
+.arrow-l:hover,
+.arrow-r:hover{
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.2s;
+}
+.arrow-r{
+    right: 0;
+}
+.arrow-l{
+    left:0;
+}
+.mainbody .scroll{
+    position: relative;
+    height:330px;
+    width: 870px;
+    margin: 80px auto;
+    overflow: hidden;
+}
+.mainbody .scroll ul{
+    position:absolute;
+    top:0;
+    width: 600%;
+}
+.mainbody .scroll ul li {
+    float: left;
+    list-style: none;
+}
+.scroll ol{
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    margin-left:-100px;
+    width:400px;
+    height: 8px;
+    z-index: 1;
+}
+
+.scroll ol li{
+    float:left;
+    margin-left: 10px;
+    height: 8px;
+    width:35px;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 4px;
+    list-style: none;
+}
+.scroll ol .current{
+    background-color: rgba(255, 255, 255,0.8);
+}
+.projectlist{
+    width: 1000px;
+    margin: 80px auto;
+}
+.projectlist ul{
+    background-color: rgba(225, 227, 84, 0.1);
+}
+.projectlist li{
+    float:left;
+    height: 185px;
+    width: 185px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    list-style: none;
+    border-radius: 20px;
+}
+.projectlist li a{
+    display: block;
+    height: 185px;
+    width: 185px;
+    background-color: rgb(37, 33, 33);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.projectlist li a:hover{
+     background-color: rgba(10, 128, 224, 0.732);
+     transition: 0.6s;
+}
+/* 小图标 */
+.projectlist .c1{
+    background: url("fz素材包（已解压/CampIcon/CampIcon/logo_abyssal.png") no-repeat ;
+    background-size: cover;
+    background-color: rgba(37, 33, 33,0.9);
+}
+.projectlist .c2{
+    background: url("fz素材包（已解压/CampIcon/CampIcon/logo_action4.png") no-repeat ;
+    background-size: cover;
+    background-color: rgba(37, 33, 33,0.9);
+}
+.projectlist .c3{
+    background: url("fz素材包（已解压/CampIcon/CampIcon/logo_babel.png") no-repeat ;
+    background-size: cover;
+    background-color: rgba(37, 33, 33,0.9);
+}
+.projectlist .c4{
+    background: url("fz素材包（已解压/CampIcon/CampIcon/logo_blacksteel.png") no-repeat ;
+    background-size: cover;
+    background-color: rgba(37, 33, 33,0.9);
+}
+.projectlist .c5{
+    background: url("fz素材包（已解压/CampIcon/CampIcon/logo_bolivar.png") no-repeat ;
+    background-size: cover;
+    background-color: rgba(37, 33, 33,0.9);
+}
+.projectlist .c6{
+    background: url("fz素材包（已解压/CampIcon/CampIcon/logo_chiave.png") no-repeat ;
+    background-size: cover;
+    background-color: rgba(37, 33, 33,0.9);
+}
+.projectlist .c7{
+    background: url("fz素材包（已解压/CampIcon/CampIcon/logo_higashi.png") no-repeat ;
+    background-size: cover;
+    background-color: rgba(37, 33, 33,0.9);
+}
+.projectlist .c8{
+    background: url("fz素材包（已解压/CampIcon/CampIcon/logo_columbia.png") no-repeat ;
+    background-size: cover;
+    background-color: rgba(37, 33, 33,0.9);
+}
+.projectlist .c9{
+    background: url("fz素材包（已解压/CampIcon/CampIcon/logo_kjerag.png") no-repeat ;
+    background-size: cover;
+    background-color: rgba(37, 33, 33,0.9);
+}
+.projectlist .c10{
+    background: url("fz素材包（已解压/CampIcon/CampIcon/logo_sui.png") no-repeat ;
+    background-size: cover;
+    background-color: rgba(37, 33, 33,0.9);
+}
+.leftgov{
+    float: left;
+    width: 210px;
+    height: 1000px;
+    margin-top: 60px; 
+}
+.leftgov .title{
+    padding-left: 10px;
+    height: 70px;
+    line-height: 70px;
+    color: rgb(247, 183, 8);
+    border-bottom: 3px solid rgb(226, 179, 8);
+}
+.leftgov h3{
+    display: block;
+    margin-top: 20px;
+}
+.leftgov ul{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 10px 0;
+}
+.l{
+    border: 0;
+}
+.leftgov .c{
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid rgb(226, 179, 8);
+}
+.leftgov span{
+    float:right;
+}
+.leftgov .c a{
+    padding-left: 20px;
+    color: aliceblue;
+    transition: 0.5s;
+    display: block;
+    width: 100%-20px;
+}
+.leftgov .c a:hover{
+    background-color: rgb(226, 179, 8);
+    color: black;
+}
+.leftgov ul {
+    margin-top: 30px;
+}
+.sometext{
+    margin-top: 100px;
+    margin-left: 15px;
+    width: 97%;
+}
+.sometext .pagetitle{
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    border-bottom: 1px solid;
+}
+.sometext1{
+    margin-top: 580px;
+    margin-left: 15px;
+    width: 97%;
+}
+.sometext1 .pagetitle{
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    border-bottom: 1px solid;
+}
+.sometextend{
+    margin-top: 240px;
+    margin-left: 15px;
+    width: 97%;
+    margin-bottom: 120px;
+}
+.sometextend .pagetitle{
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    border-bottom: 1px solid;
+}
+
