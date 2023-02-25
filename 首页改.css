@@ -137,6 +137,7 @@ margin-left: 1300px;
     position:absolute;
     top:0;
     width: 600%;
+    left:-10px;
 }
 .mainbody .scroll ul li {
     float: left;
@@ -169,7 +170,7 @@ margin-left: 1300px;
     margin: 80px auto;
 }
 .projectlist ul{
-    background-color: rgba(225, 227, 84, 0.1);
+    background-color: rgba(225, 226, 140, 0.1);
 }
 .projectlist li{
     float:left;
